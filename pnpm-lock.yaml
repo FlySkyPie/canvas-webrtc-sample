@@ -8,8 +8,14 @@ dependencies:
   dayjs:
     specifier: ^1.11.9
     version: 1.11.9
+  events:
+    specifier: ^3.3.0
+    version: 3.3.0
 
 devDependencies:
+  '@types/events':
+    specifier: ^3.0.0
+    version: 3.0.0
   typescript:
     specifier: ^5.0.2
     version: 5.0.2
@@ -217,6 +223,10 @@ packages:
     dev: true
     optional: true
 
+  /@types/events@3.0.0:
+    resolution: {integrity: sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==}
+    dev: true
+
   /dayjs@1.11.9:
     resolution: {integrity: sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==}
     dev: false
@@ -250,6 +260,11 @@ packages:
       '@esbuild/win32-ia32': 0.18.16
       '@esbuild/win32-x64': 0.18.16
     dev: true
+
+  /events@3.3.0:
+    resolution: {integrity: sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==}
+    engines: {node: '>=0.8.x'}
+    dev: false
 
   /fsevents@2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}

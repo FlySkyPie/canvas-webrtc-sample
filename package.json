@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/events": "^3.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "dayjs": "^1.11.9"
+    "dayjs": "^1.11.9",
+    "events": "^3.3.0"
   }
 }
