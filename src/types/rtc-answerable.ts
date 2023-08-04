@@ -1,6 +1,6 @@
 export interface IRTCAnswerableEventMap {
   answer: [RTCSessionDescriptionInit];
-  icecandidate: [RTCPeerConnectionIceEvent];
+  icecandidate: [RTCIceCandidate];
 }
 
 /**
@@ -14,5 +14,5 @@ export interface IRTCAnswerable {
 
   offer(value: RTCSessionDescriptionInit): void;
 
-  addIceCandidate(candidate: RTCIceCandidateInit): void;
+  addIceCandidate(candidate: RTCIceCandidate): void;
 }

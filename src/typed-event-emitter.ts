@@ -23,4 +23,8 @@ export class TypedEventEmitter<TEvents extends Record<string, any>> {
   ) {
     this.emitter.off(eventName, handler as any);
   }
+
+  removeAllListeners() {
+    this.emitter.removeAllListeners();
+  }
 }

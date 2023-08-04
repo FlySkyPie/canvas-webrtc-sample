@@ -5,6 +5,10 @@ import type {
 import type { ITransmittable } from "./types/transmittable";
 import { TypedEventEmitter } from "./typed-event-emitter";
 
+const offerOptions = {
+  offerToReceiveVideo: true,
+};
+
 export class TransmitterSession implements ITransmittable, IRTCOfferable {
   private peerConnection = new RTCPeerConnection();
   private eventEmitter = new TypedEventEmitter<IRTCOfferableEventMap>();
@@ -23,18 +27,25 @@ export class TransmitterSession implements ITransmittable, IRTCOfferable {
   }
 
   public start(): void {
-    this.peerConnection.createOffer().then((offer) => {
-      this.peerConnection.setLocalDescription(offer);
+    this.peerConnection.createOffer(offerOptions).then((offer) => {
+      console.log("TransmitterSession", "offer", offer.sdp);
+      this.peerConnection.setLocalDescription(offer).then(() => {
+        console.log("TransmitterSession", "setLocalDescription", "done");
+      });
       this.eventEmitter.emit("offer", offer);
     });
   }
 
   public answer(value: RTCSessionDescriptionInit): void {
-    this.peerConnection.setRemoteDescription(value);
+    console.log("TransmitterSession.answer", value);
+    this.peerConnection.setRemoteDescription(value).then(() => {
+      console.log("TransmitterSession", "setRemoteDescription", "done");
+    });
   }
 
   public addIceCandidate(candidate: RTCIceCandidateInit) {
-    this.peerConnection.addIceCandidate(candidate);
+    console.log("TransmitterSession.addIceCandidate", candidate);
+    this.peerConnection.addIceCandidate(new RTCIceCandidate(candidate));
   }
 
   public on<K extends keyof IRTCOfferableEventMap>(
@@ -44,7 +55,18 @@ export class TransmitterSession implements ITransmittable, IRTCOfferable {
     this.eventEmitter.on(type, listener);
   }
 
+  public dispose() {
+    this.peerConnection.close();
+    this.peerConnection.removeEventListener(
+      "icecandidate",
+      this.handleIceCandidate
+    );
+    this.eventEmitter.removeAllListeners();
+  }
+
   private handleIceCandidate = (event: RTCPeerConnectionIceEvent) => {
-    this.eventEmitter.emit("icecandidate", event);
+    console.log("TransmitterSession.handleIceCandidate", event);
+    const { candidate } = event;
+    candidate && this.eventEmitter.emit("icecandidate", candidate);
   };
 }

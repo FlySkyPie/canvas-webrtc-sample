@@ -1,6 +1,6 @@
 export interface IRTCOfferableEventMap {
   offer: [RTCSessionDescriptionInit];
-  icecandidate: [RTCPeerConnectionIceEvent];
+  icecandidate: [RTCIceCandidate];
 }
 
 /**
