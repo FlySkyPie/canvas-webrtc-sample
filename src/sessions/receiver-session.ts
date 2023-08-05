@@ -1,9 +1,9 @@
 import type {
   IRTCAnswerable,
   IRTCAnswerableEventMap,
-} from "./types/rtc-answerable";
-import type { IReceivable, IReceivableEventMap } from "./types/receivable";
-import { TypedEventEmitter } from "./typed-event-emitter";
+} from "../interfaces/rtc-answerable";
+import type { IReceivable, IReceivableEventMap } from "../interfaces/receivable";
+import { TypedEventEmitter } from "../typed-event-emitter";
 
 type IEventMap = IRTCAnswerableEventMap & IReceivableEventMap;
 

@@ -1,6 +1,6 @@
 import { SampleViewSource } from "./sample-view-source";
-import { ReceiverSession } from "./receiver-session";
-import { TransmitterSession } from "./transmitter-session";
+import { ReceiverSession } from "./sessions/receiver-session";
+import { TransmitterSession } from "./sessions/transmitter-session";
 import "./style.css";
 
 const canvasEl = document.querySelector("canvas")!;

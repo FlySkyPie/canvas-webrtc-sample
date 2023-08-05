@@ -1,9 +1,9 @@
 import type {
   IRTCOfferable,
   IRTCOfferableEventMap,
-} from "./types/rtc-offerable";
-import type { ITransmittable } from "./types/transmittable";
-import { TypedEventEmitter } from "./typed-event-emitter";
+} from "../interfaces/rtc-offerable";
+import type { ITransmittable } from "../interfaces/transmittable";
+import { TypedEventEmitter } from "../typed-event-emitter";
 
 const offerOptions = {
   offerToReceiveVideo: true,
