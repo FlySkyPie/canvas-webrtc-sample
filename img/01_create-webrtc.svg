@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="234.3mm" height="253.38mm" version="1.1" viewBox="0 0 234.3 253.38" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="TriangleStart" overflow="visible" markerHeight="6.155385" markerWidth="5.3244081" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 5.3244081 6.1553851">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleStart-6" overflow="visible" markerHeight="6.155385" markerWidth="5.3244081" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 5.3244081 6.1553851">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleStart-1" overflow="visible" markerHeight="6.155385" markerWidth="5.3244081" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 5.3244081 6.1553851">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleStart-6-7" overflow="visible" markerHeight="6.155385" markerWidth="5.3244081" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 5.3244081 6.1553851">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleStart-6-7-7" overflow="visible" markerHeight="6.155385" markerWidth="5.3244081" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 5.3244081 6.1553851">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+  <marker id="TriangleStart-6-7-7-9" overflow="visible" markerHeight="6.155385" markerWidth="5.3244081" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 5.3244081 6.1553851">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(-84.607 -24.594)">
+  <g fill="#fff" stroke-linecap="round" stroke-linejoin="round">
+   <g stroke="#999">
+    <rect x="84.657" y="24.644" width="234.2" height="253.28" stop-color="#000000" stroke-width=".1" style="paint-order:markers stroke fill"/>
+    <g stroke-dasharray="2, 4">
+     <rect x="93.091" y="32.753" width="160.19" height="40.501" stop-color="#000000" style="paint-order:markers stroke fill"/>
+     <rect x="92.366" y="120.93" width="160.19" height="61.547" stop-color="#000000" style="paint-order:markers stroke fill"/>
+     <rect x="92.89" y="231.64" width="160.19" height="40.501" stop-color="#000000" style="paint-order:markers stroke fill"/>
+    </g>
+   </g>
+   <g stroke="#000">
+    <rect x="92.995" y="76.722" width="160.19" height="40.501" stop-color="#000000" style="paint-order:markers stroke fill"/>
+    <rect x="105.29" y="70.471" width="135.59" height="10.795" stop-color="#000000" style="paint-order:markers stroke fill"/>
+    <rect x="105.29" y="113.53" width="135.59" height="10.795" stop-color="#000000" style="paint-order:markers stroke fill"/>
+   </g>
+  </g>
+  <g fill="#000000" font-family="sans-serif" font-size="9.8778px" stroke-linecap="round" stroke-linejoin="round">
+   <text x="173.52475" y="100.65537" stop-color="#000000" text-align="center" text-anchor="middle" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="173.52475" y="100.65537" fill="#000000" text-align="center" text-anchor="middle">TransmitterSession</tspan></text>
+   <text x="181.60062" y="56.881664" stop-color="#000000" text-align="center" text-anchor="middle" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="181.60062" y="56.881664" fill="#000000" text-align="center" text-anchor="middle">MediaStream</tspan></text>
+   <g>
+    <text x="256.16321" y="49.212746" stop-color="#000000" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="256.16321" y="49.212746">Application</tspan><tspan x="256.16321" y="61.559959">Domain</tspan></text>
+    <text x="255.94676" y="250.3857" stop-color="#000000" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="255.94676" y="250.3857">Application</tspan><tspan x="255.94676" y="262.73291">Domain</tspan></text>
+    <text x="255.29123" y="149.32068" stop-color="#000000" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="255.29123" y="149.32068">Connection</tspan><tspan x="255.29123" y="161.66789">Domain</tspan></text>
+   </g>
+  </g>
+  <g stroke-linecap="round" stroke-linejoin="round">
+   <rect x="92.995" y="186.72" width="160.19" height="40.501" fill="#fff" stop-color="#000000" stroke="#000" style="paint-order:markers stroke fill"/>
+   <text x="173.02556" y="210.65511" fill="#000000" font-family="sans-serif" font-size="9.8778px" stop-color="#000000" text-align="center" text-anchor="middle" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="173.02556" y="210.65511" fill="#000000" text-align="center" text-anchor="middle">ReceiverSession</tspan></text>
+   <rect x="105.29" y="179.54" width="135.59" height="10.795" fill="#fff" stop-color="#000000" stroke="#000" style="paint-order:markers stroke fill"/>
+   <rect x="105.29" y="222.65" width="135.59" height="10.795" fill="#fff" stop-color="#000000" stroke="#000" style="paint-order:markers stroke fill"/>
+  </g>
+  <g fill="#000000" font-family="sans-serif" font-size="9.8778px" stroke-linecap="round" stroke-linejoin="round">
+   <g text-anchor="middle">
+    <text x="172.8688" y="231.72798" stop-color="#000000" text-align="center" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="172.8688" y="231.72798" fill="#000000" text-align="center" text-anchor="middle">IReceivable</tspan></text>
+    <text x="172.8688" y="79.550926" stop-color="#000000" text-align="center" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="172.8688" y="79.550926" fill="#000000" text-align="center" text-anchor="middle">ITransmittable</tspan></text>
+    <text x="172.8688" y="122.61052" stop-color="#000000" text-align="center" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="172.8688" y="122.61052" fill="#000000" text-align="center" text-anchor="middle">IRTCOfferable</tspan></text>
+   </g>
+   <text x="197.9454" y="149.12866" stop-color="#000000" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="197.9454" y="149.12866">ICE</tspan><tspan x="197.9454" y="161.47588">Candidate</tspan></text>
+   <text x="152.07068" y="148.25809" stop-color="#000000" text-align="end" text-anchor="end" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="152.07068" y="148.25809" text-align="end">Session</tspan><tspan x="152.07068" y="160.6053" text-align="end">Description</tspan></text>
+   <text x="172.86882" y="188.61636" stop-color="#000000" text-align="center" text-anchor="middle" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="172.86882" y="188.61636" fill="#000000" text-align="center" text-anchor="middle">IRTCAnswerable</tspan></text>
+  </g>
+  <g>
+   <g stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m184.42 176.05v-46.377" marker-end="url(#TriangleStart)" stop-color="#000000" style="paint-order:markers stroke fill"/>
+    <path d="m192.66 126.5v46.377" marker-end="url(#TriangleStart-6)" stop-color="#000000" style="paint-order:markers stroke fill"/>
+    <path d="m154.39 175.6v-46.377" marker-end="url(#TriangleStart-1)" stop-color="#000000" style="paint-order:markers stroke fill"/>
+    <path d="m162.63 126.06v46.377" marker-end="url(#TriangleStart-6-7)" stop-color="#000000" style="paint-order:markers stroke fill"/>
+    <path d="m140.79 54.995v11.192" marker-end="url(#TriangleStart-6-7-7)" stop-color="#000000" style="paint-order:markers stroke fill"/>
+   </g>
+   <path d="m137.27 51.429c-1.8263-0.91218-3.3977-1.7444-3.4918-1.8493-0.16637-0.18543-0.17119-0.31143-0.17119-4.4953 0-4.1839 5e-3 -4.3099 0.17119-4.4953 0.2212-0.24649 6.7468-3.5078 7.0188-3.5078s6.7976 3.2613 7.0188 3.5078c0.16637 0.18543 0.17119 0.31143 0.17119 4.4953 0 4.1839-5e-3 4.3099-0.17119 4.4953-0.2212 0.24649-6.7468 3.5078-7.0188 3.5078-0.11348 0-1.7006-0.74633-3.527-1.6585zm2.7138-3.5421v-3.1463l-2.3543-1.1762c-1.2948-0.64691-2.3733-1.1762-2.3967-1.1762-0.0232 0-0.0425 1.4058-0.0425 3.1239v3.1239l2.3753 1.194c1.3064 0.65671 2.3849 1.1961 2.3967 1.1986 0.0116 0.0026 0.0215-1.4112 0.0215-3.1417zm6.4196-2.3748c0-1.7182-0.0189-3.1239-0.0425-3.1239-0.0232 0-1.1018 0.52929-2.3967 1.1762l-2.3542 1.1762v6.2933l4.7933-2.3978zm-1.0271-4.4506c0-0.0232-1.0304-0.55763-2.2897-1.1876l-2.2896-1.1455-2.2897 1.1454c-1.2593 0.62999-2.2897 1.1644-2.2897 1.1876 0 0.0232 1.0304 0.55763 2.2897 1.1876l2.2896 1.1455 2.2897-1.1454c1.2593-0.63 2.2897-1.1644 2.2897-1.1876z" stroke-width=".085595"/>
+  </g>
+  <text x="172.23523" y="252.01541" fill="#000000" font-family="sans-serif" font-size="9.8778px" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" text-align="center" text-anchor="middle" style="paint-order:markers stroke fill" xml:space="preserve"><tspan x="172.23523" y="252.01541" fill="#000000" text-align="center" text-anchor="middle">MediaStreamTrack</tspan></text>
+  <path d="m225.65 235.16v11.192" marker-end="url(#TriangleStart-6-7-7-9)" stop-color="#000000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" style="paint-order:markers stroke fill"/>
+  <path d="m222.12 265.83c-1.8263-0.91218-3.3977-1.7444-3.4918-1.8493-0.16637-0.18543-0.17119-0.31143-0.17119-4.4954s5e-3 -4.3099 0.17119-4.4954c0.2212-0.24649 6.7468-3.5078 7.0188-3.5078s6.7976 3.2613 7.0188 3.5078c0.16637 0.18543 0.17119 0.31143 0.17119 4.4954s-5e-3 4.3099-0.17119 4.4954c-0.2212 0.24649-6.7468 3.5078-7.0188 3.5078-0.11348 0-1.7006-0.74633-3.527-1.6585zm2.7138-3.5421v-3.1463l-2.3543-1.1762c-1.2948-0.64691-2.3733-1.1762-2.3967-1.1762-0.0232 0-0.0425 1.4058-0.0425 3.1239v3.1239l2.3753 1.194c1.3064 0.65671 2.3849 1.1961 2.3967 1.1986 0.0116 3e-3 0.0215-1.4112 0.0215-3.1417zm6.4196-2.3748c0-1.7182-0.0189-3.1239-0.0425-3.1239-0.0232 0-1.1018 0.52929-2.3967 1.1762l-2.3542 1.1762v6.2933l4.7933-2.3978zm-1.0271-4.4506c0-0.0232-1.0304-0.55764-2.2897-1.1876l-2.2896-1.1454-2.2897 1.1454c-1.2593 0.62999-2.2897 1.1644-2.2897 1.1876s1.0304 0.55763 2.2897 1.1876l2.2896 1.1455 2.2897-1.1454c1.2593-0.63 2.2897-1.1644 2.2897-1.1876z" stroke-width=".085595"/>
+ </g>
+</svg>
