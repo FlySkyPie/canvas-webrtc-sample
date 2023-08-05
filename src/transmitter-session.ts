@@ -28,23 +28,16 @@ export class TransmitterSession implements ITransmittable, IRTCOfferable {
 
   public start(): void {
     this.peerConnection.createOffer(offerOptions).then((offer) => {
-      console.log("TransmitterSession", "offer", offer.sdp);
-      this.peerConnection.setLocalDescription(offer).then(() => {
-        console.log("TransmitterSession", "setLocalDescription", "done");
-      });
+      this.peerConnection.setLocalDescription(offer)
       this.eventEmitter.emit("offer", offer);
     });
   }
 
   public answer(value: RTCSessionDescriptionInit): void {
-    console.log("TransmitterSession.answer", value);
-    this.peerConnection.setRemoteDescription(value).then(() => {
-      console.log("TransmitterSession", "setRemoteDescription", "done");
-    });
+    this.peerConnection.setRemoteDescription(value)
   }
 
   public addIceCandidate(candidate: RTCIceCandidateInit) {
-    console.log("TransmitterSession.addIceCandidate", candidate);
     this.peerConnection.addIceCandidate(new RTCIceCandidate(candidate));
   }
 
@@ -65,7 +58,6 @@ export class TransmitterSession implements ITransmittable, IRTCOfferable {
   }
 
   private handleIceCandidate = (event: RTCPeerConnectionIceEvent) => {
-    console.log("TransmitterSession.handleIceCandidate", event);
     const { candidate } = event;
     candidate && this.eventEmitter.emit("icecandidate", candidate);
   };

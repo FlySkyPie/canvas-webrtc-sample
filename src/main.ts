@@ -12,10 +12,6 @@ stopBtn.disabled = true;
 
 new SampleViewSource(canvasEl);
 
-const stream = await navigator.mediaDevices.getUserMedia({
-  video: true,
-});
-
 const handleClickStart = () => {
   startBtn.disabled = true;
   stopBtn.disabled = false;
@@ -38,8 +34,7 @@ const handleClickStart = () => {
 
   receiver.on("track", (track) => remoteStream.addTrack(track));
 
-//   transmitter.attach(canvasEl.captureStream(20)); // But not this one.
-  transmitter.attach(stream);   // This work.
+  transmitter.attach(canvasEl.captureStream(20)); // Not work in Firefox.
   transmitter.start();
 
   const handleClickStop = () => {

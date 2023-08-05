@@ -21,21 +21,14 @@ export class ReceiverSession implements IReceivable, IRTCAnswerable {
   }
 
   public offer(value: RTCSessionDescriptionInit): void {
-    console.log("ReceiverSession.offer", value);
-    this.peerConnection.setRemoteDescription(value).then(() => {
-      console.log("ReceiverSession", "setRemoteDescription", "done");
-    });
+    this.peerConnection.setRemoteDescription(value)
     this.peerConnection.createAnswer().then((asnwer) => {
-      console.log("ReceiverSession", "asnwer", asnwer.sdp);
-      this.peerConnection.setLocalDescription(asnwer).then(()=>{
-        console.log("ReceiverSession", "setLocalDescription", "done");
-      });
+      this.peerConnection.setLocalDescription(asnwer)
       this.eventEmitter.emit("answer", asnwer);
     });
   }
 
   public addIceCandidate(candidate: RTCIceCandidateInit) {
-    console.log("ReceiverSession.addIceCandidate", candidate);
     this.peerConnection.addIceCandidate(new RTCIceCandidate(candidate));
   }
 
@@ -57,13 +50,11 @@ export class ReceiverSession implements IReceivable, IRTCAnswerable {
   }
 
   private handleIceCandidate = (event: RTCPeerConnectionIceEvent) => {
-    console.log("ReceiverSession.handleIceCandidate", event);
     const { candidate } = event;
     candidate && this.eventEmitter.emit("icecandidate", candidate);
   };
 
   private handleTrack = ({ track }: RTCTrackEvent) => {
-    console.log("ReceiverSession.handleTrack", track);
     this.eventEmitter.emit("track", track);
   };
 }
